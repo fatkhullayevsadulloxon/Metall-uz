@@ -1,0 +1,183 @@
+.mySlides {
+    padding: 5px;
+    background-image: url("../../assets/img/intro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.ms2 {
+    background-image: url("../../assets/img/intro.jpg")
+}
+
+.slideshow-container {
+    margin-bottom: 140px;
+    width: 100%;
+    position: relative
+}
+
+.carusel__title {
+    max-width: 1050px;
+    margin: 140px auto 70px auto;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 83px;
+    text-align: center;
+    color: #fff
+}
+
+.carusel__wrapper-link {
+    text-align: center;
+    margin-bottom: 100px
+}
+
+.carusel__link {
+    padding: 18px 34px 18px 34px;
+    display: inline-block;
+    width: 258px;
+    background: rgba(17, 16, 16, .6);
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff
+}
+
+.carusel__link:hover {
+    background: #fff;
+    color: #000
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, .8)
+}
+
+.dot-wrapper {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .6s ease
+}
+
+.active,
+.dot:hover {
+    background-color: #717171
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next {
+        font-size: 11px
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .slideshow-container {
+        margin-bottom: 400px
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .dot-wrapper {
+        bottom: 4%
+    }
+
+    .mySlides {
+        padding: 50px
+    }
+
+    .carusel__title {
+        margin: 0px auto 50px auto;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px
+    }
+
+    .carusel__wrapper-link {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        max-width: 280px
+    }
+
+    .carusel__btn {
+        margin-bottom: 20px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .carusel__btn {
+        padding: 18px 27px 18px 27px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px
+    }
+}

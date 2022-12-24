@@ -1,0 +1,107 @@
+.section-xizmatlar {
+    margin-bottom: 100px;
+    text-align: center
+}
+
+.xizmatlar__title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #111010
+}
+
+.xizmatlar__line {
+    width: 150px;
+    height: 4px;
+    margin: 0 auto;
+    background: #c4c4c4
+}
+
+.xizmatlar__info {
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    max-width: 826px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #616161
+}
+
+.xizmatlar__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 70px;
+    padding: 0;
+    list-style: none
+}
+
+.xizmatlar__item {
+    margin: 10px;
+    margin-bottom: 30px
+}
+
+.list-item__img {
+    width: 299px;
+    height: 276px
+}
+
+.list-item__title {
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #111010
+}
+
+.xizmatlar__btn {
+    text-decoration: none;
+    padding: 14px 45px 14px 45px;
+    border: 1px solid #111010;
+    text-align: center;
+    background: #111010;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff
+}
+
+.xizmatlar__btn:hover {
+    color: #111010;
+    background: #fff;
+    border: 1px solid #111010
+}
+
+@media only screen and (max-width: 769px) {
+    .section-xizmatlar {
+        margin-bottom: 100px;
+        text-align: center
+    }
+
+    .xizmatlar__title {
+        font-size: 38px;
+        line-height: 38px
+    }
+
+    .xizmatlar__info {
+        font-size: 18px;
+        line-height: 26px
+    }
+}

@@ -1,0 +1,47 @@
+.intro_section-p2 {
+    background-image: url("../../assets/img/divan.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 80px
+}
+
+.discription-wrapper-p2 {
+    max-width: 716px;
+    margin-left: 100px;
+    padding: 100px 40px 80px 40px;
+    margin-top: 50px
+}
+
+.intro__title-p2 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 88px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+@media only screen and (max-width: 830px) {
+    .discription-wrapper-p2 {
+        max-width: 716px;
+        margin-left: 0px;
+        padding: 100px 40px 80px 40px;
+        margin-top: 50px
+    }
+
+    .intro__title-p2 {
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 79px
+    }
+}
+
+.catolog-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px
+}

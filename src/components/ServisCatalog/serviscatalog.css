@@ -1,0 +1,126 @@
+.catalog-wrapper {
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 20px
+}
+
+.catalog-table {
+    display: flex;
+    justify-content: space-between
+}
+
+.catalog-table__btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 310px;
+    margin-right: 35px
+}
+
+.btn-wrapper__btn {
+    margin-right: 10px;
+    padding: 15px;
+    padding-right: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: left;
+    cursor: pointer;
+    color: rgba(17, 16, 16, .8);
+    border-bottom: 1px solid rgba(255, 255, 255, .6)
+}
+
+.btn-wrapper__btn:hover {
+    background: #f5f5f5;
+    border-bottom: 1px solid rgba(0, 0, 0, .6)
+}
+
+.button-active {
+    background: #f5f5f5;
+    border-bottom: 1px solid rgba(0, 0, 0, .6)
+}
+
+.catalog-table p {
+    margin-top: 0;
+    margin-right: 20px;
+    max-width: 616px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #616161
+}
+
+.catalog-table img {
+    width: 324px;
+    height: 384px
+}
+
+@media only screen and (max-width: 1010px) {
+    .catalog-table {
+        flex-direction: column;
+        align-items: center
+    }
+
+    .catalog-table__btn-wrapper {
+        margin-bottom: 30px
+    }
+
+    .catalog-table__btn-wrapper button {
+        text-align: center;
+        margin-right: 0
+    }
+
+    .catalog-table img {
+        order: 3;
+        margin-bottom: 30px;
+        width: 324px;
+        height: 384px
+    }
+
+    .catalog-table p {
+        order: 4;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .intro-box__title {
+        font-size: 65px;
+        line-height: 79px
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .xizmatlar-pg__intro-box {
+        padding: 150px 15px 100px 30px
+    }
+
+    .intro-box__title {
+        font-size: 52px;
+        line-height: 58px
+    }
+
+    .xizmatlar-box-top {
+        padding-left: 30px
+    }
+
+    .xizmatlar-box-top h4 {
+        font-size: 42px
+    }
+
+    .xizmatlar-box-top p {
+        font-size: 16px
+    }
+
+    .catalog-wrapper {
+        margin-bottom: 80px;
+        padding-left: 30px
+    }
+}

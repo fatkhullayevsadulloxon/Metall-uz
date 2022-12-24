@@ -1,0 +1,132 @@
+.section-order {
+    position: relative;
+    margin-bottom: 100px
+}
+
+.order__background {
+    max-width: 731px;
+    padding-left: 50px
+}
+
+.order__form {
+    position: absolute;
+    right: 10%;
+    top: 46px;
+    text-align: center;
+    padding: 40px;
+    padding-left: 85px;
+    padding-right: 132px;
+    max-width: 692px;
+    background: #f9f9f9
+}
+
+.order__title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000
+}
+
+.order__input-name {
+    padding-left: 20px;
+    height: 58px;
+    margin-bottom: 10px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid rgba(130, 130, 130, .4)
+}
+
+.order__input-phone {
+    padding-left: 20px;
+    height: 58px;
+    margin-bottom: 20px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid rgba(130, 130, 130, .4)
+}
+
+.input-red {
+    border: 2px solid red
+}
+
+.order__input-info {
+    padding-left: 20px;
+    height: 140px;
+    margin-bottom: 20px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid rgba(130, 130, 130, .4)
+}
+
+.order__btn {
+    padding: 14px 57px 14px 57px;
+    background: #111010;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff
+}
+
+.order__btn:hover {
+    background-color: #fff;
+    color: #111010
+}
+
+@media only screen and (max-width: 769px) {
+    .order__title {
+        font-size: 28px
+    }
+
+    .section-order {
+        display: flex;
+        justify-content: center;
+        position: static;
+        margin-bottom: 500px
+    }
+
+    .order__background {
+        position: relative;
+        max-width: 517px;
+        padding-left: 0
+    }
+
+    .order__background img {
+        width: 517px;
+        height: 349px
+    }
+
+    .order__form {
+        max-width: 480px;
+        right: 3.5%;
+        top: 70%;
+        padding: 40px
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .order__title {
+        font-size: 20px
+    }
+
+    .order__background {
+        max-width: 335px
+    }
+
+    .order__background img {
+        width: 335px;
+        height: 268px
+    }
+
+    .order__form {
+        max-width: 300px;
+        right: 5%;
+        top: 70%;
+        padding: 40px
+    }
+}

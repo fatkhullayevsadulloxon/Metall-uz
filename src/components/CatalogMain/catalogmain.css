@@ -1,0 +1,161 @@
+.catolog-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.list {
+    list-style: none;
+    margin-top: -20px;
+}
+
+.item {
+    margin-top: 25px;
+}
+
+
+.catolg-main__left-box {
+    max-width: 635px;
+    padding-left: 20px
+}
+
+.catolg-main_title {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #111010
+}
+
+.catolg-main_text {
+    max-width: 600px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #616161
+}
+
+.catolg-hr {
+    width: 160px;
+    height: 5px;
+    background: #c4c4c4;
+    margin-left: 0px;
+    margin-top: -30px;
+    border-radius: 17px;
+    border: none
+}
+
+.main-catolog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catolog-main-div {
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.catolg-main-p {
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #616161;
+    text-decoration: none !important;
+}
+
+.catolg-main-p2 {
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #616161;
+    text-decoration: none;
+}
+
+.catolg-main-p3 {
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #616161;
+    text-decoration: none;
+}
+
+.catolg-main-p:hover {
+    color: #f90
+}
+.catolg-main-p2:hover {
+    color: #f90
+}
+.catolg-main-p3:hover {
+    color: #f90
+}
+
+.p-active {
+    color: #f90
+}
+
+@media only screen and (max-width: 560px) {list
+    .catolog-main-div {
+        padding-top: 0px;
+    }
+
+    .list {
+        display: flex;
+        margin-left: 60px;
+    }
+
+    .main-catolog {
+        overflow-x: scroll;
+    }
+
+    .item {
+        margin-left: -90px;
+        min-width: 225px;
+    }
+
+    .catolg-main-p {
+        font-size: 20px;
+    }
+    .catolg-main-p2 {
+        font-size: 20px;
+        margin-left: -50px;
+    }
+    .catolg-main-p3 {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+}
+
+.active-link{
+    color: #f90;
+    text-decoration: none;
+}
+
+.catalog-main-p-active{
+    text-decoration: none;
+    color: #111010;
+}

@@ -1,0 +1,36 @@
+.xizmatlar-box-top {
+    padding-left: 50px;
+    padding-right: 20px
+}
+
+.xizmatlar-box-top h4 {
+    margin-bottom: 25px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    align-items: center;
+    color: #111010
+}
+
+.xizmatlar-box-top div {
+    width: 150px;
+    height: 5px;
+    background: #c4c4c4
+}
+
+.xizmatlar-box-top p {
+    max-width: 826px;
+    padding-bottom: 20px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #616161
+}
+
+.xizmatlar-box-top hr {
+    margin-bottom: 50px
+}

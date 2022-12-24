@@ -1,0 +1,40 @@
+.o-nas__intro-section {
+    margin-bottom: 80px;
+    padding: 110px 80px 110px 80px;
+    background-image: url("../../assets/img/o-nas-intro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.o-nas__intro__title {
+    margin: 0;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.o-nas__intro__text-wrapper p {
+    max-width: 650px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #e4e4e4
+}
+
+@media only screen and (max-width: 500px) {
+    .o-nas__intro-section {
+        margin-bottom: 50px
+    }
+
+    .o-nas__intro__title {
+        font-size: 45px;
+        line-height: 55px
+    }
+}

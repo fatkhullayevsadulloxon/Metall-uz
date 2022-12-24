@@ -1,0 +1,121 @@
+.section-info {
+    margin-bottom: 70px
+}
+
+.section-info__box-1 {
+    background-image: url("../../assets/img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #fff
+}
+
+.section-info__box-1:hover {
+    background: linear-gradient(0deg, rgba(167, 76, 0, 0.7), rgba(167, 76, 0, 0.7)), url("../../assets/img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.section-info__box-2 {
+    background-image: url("../../assets/img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #fff
+}
+
+.section-info__box-2:hover {
+    background: linear-gradient(0deg, rgba(167, 76, 0, 0.7), rgba(167, 76, 0, 0.7)), url("../../assets/img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.section-info__box-3 {
+    background-image: url("../../assets/img/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #fff
+}
+
+.section-info__box-3:hover {
+    background: linear-gradient(0deg, rgba(167, 76, 0, 0.7), rgba(167, 76, 0, 0.7)), url("../../assets/img/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.box__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 90px;
+    padding-top: 90px
+}
+
+.section-info__title {
+    padding-left: 40px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    color: #fff
+}
+
+.section-info__dicription {
+    padding-left: 40px;
+    max-width: 633px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #e4e4e4
+}
+
+@media only screen and (max-width: 769px) {
+    .section-info {
+        margin-bottom: 70px
+    }
+
+    .box__wrapper {
+        flex-direction: column
+    }
+
+    .section-info__title {
+        margin: 0;
+        justify-content: center;
+        padding: 20px;
+        text-align: center
+    }
+
+    .section-info__dicription {
+        margin: 0;
+        padding: 20px;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .section-info__title {
+        font-size: 32px;
+        line-height: 39px
+    }
+
+    .section-info__dicription {
+        font-size: 28px;
+        line-height: 28px
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .box__wrapper {
+        padding: 0
+    }
+
+    .section-info__title {
+        padding-bottom: 0
+    }
+
+    .section-info__dicription {
+        font-size: 26px;
+        line-height: 32px
+    }
+}
