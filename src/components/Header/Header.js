@@ -32,11 +32,26 @@ const Header = () => {
                 <Link to="/" className="header__logo"><img src={Logo} alt="logo" width="80" height="70" /></Link>
                 <nav className="container navbar">
                     <div className="nav__box">
-                        <NavLink to="/" className="nav__link">{Lang[til].homePage.home}</NavLink>
-                        <NavLink to="/about" className="nav__link">{Lang[til].homePage.About}</NavLink>
-                        <NavLink to="/catalog" className="nav__link">{Lang[til].homePage.Catalog}</NavLink>
-                        <NavLink to="/servis" className="nav__link">{Lang[til].homePage.Servis}</NavLink>
-                        <NavLink to="/contact" className="nav__link">{Lang[til].homePage.Kontakt}</NavLink>
+                        <NavLink to="/" className={({ isActive }) =>
+                            isActive
+                                ? "nav-active nav__link"
+                                : "nav__link"}>{Lang[til].homePage.home}</NavLink>
+                        <NavLink to="/about" className={({ isActive }) =>
+                            isActive
+                                ? "nav-active nav__link"
+                                : "nav__link"}>{Lang[til].homePage.About}</NavLink>
+                        <NavLink to="/catalog" className={({ isActive }) =>
+                            isActive
+                                ? "nav-active nav__link"
+                                : "nav__link"}>{Lang[til].homePage.Catalog}</NavLink>
+                        <NavLink to="/servis" className={({ isActive }) =>
+                            isActive
+                                ? "nav-active nav__link"
+                                : "nav__link"}>{Lang[til].homePage.Servis}</NavLink>
+                        <NavLink to="/contact" className={({ isActive }) =>
+                            isActive
+                                ? "nav-active nav__link"
+                                : "nav__link"}>{Lang[til].homePage.Kontakt}</NavLink>
                     </div>
                 </nav>
                 <div className="language-wrapper">

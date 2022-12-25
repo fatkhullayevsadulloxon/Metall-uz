@@ -8,7 +8,7 @@ export const Lang = {
             Kontakt: "KONTAKT",
             Hero: "Metal mahsulotlari har qanday murakkablikda",
             ButtonHero1: "Katalogga kirish",
-            ButtonHero2: "qo'ng'iroq qilish",
+            ButtonHero2: "Qo'ng'iroq qilish",
             MaterialHeading: "Ishlab chiqarish ustaxonasi",
             MaterialDesc: "REALPROFF-KOVKA uyimizga xush kelibsiz! Sizni metall durdonalari yaratilgan ajoyib sayyoramiz bilan tanishishga taklif qilamiz. Bizni tanlagan har bir kishi haqida qayg'uramiz!",
             KatalogDesc: "Tayyor yoki individual loyihalar bo'yicha har qanday murakkablikdagi mahsulotlarni ishlab chiqaramiz",
