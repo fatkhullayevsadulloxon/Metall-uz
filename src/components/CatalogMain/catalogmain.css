@@ -1,7 +1,6 @@
 .catolog-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: flex !important;
+    justify-content: space-between !important;
     margin-bottom: 50px;
 }
 
@@ -30,7 +29,7 @@
 }
 
 .catolg-main_text {
-    max-width: 600px;
+    max-width: 443px;
     font-family: "Proxima Nova";
     font-style: normal;
     font-weight: 400;

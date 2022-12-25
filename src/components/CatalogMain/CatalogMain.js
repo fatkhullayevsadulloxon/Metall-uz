@@ -15,7 +15,7 @@ const CatalogMain = () => {
                 <div class="catolg-main__left-box">
                     <h2 class="catolg-main_title">{Lang[til].KatalogPage.KatalogMainHeading}</h2>
                     <hr class="catolg-hr" />
-                    <p class="catolg-main_text">{Lang[til].KatalogPage.KatalogMainDesc}</p>
+                    <p class="catolg-main_text">{Lang[til].KatalogPage.KatalogMaiinDesc}</p>
                 </div>
                 <div class="main-catolog">
                     <div class="catolog-main-div">

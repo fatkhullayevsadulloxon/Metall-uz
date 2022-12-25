@@ -1,5 +1,5 @@
 import "./footer.css"
-import Logo from "../../assets/img/logo.png"
+import Logo from "../../assets/img/footer-logo.png"
 import Telegram from "../../assets/img/telegram.png"
 import Instagram from "../../assets/img/instagram.png"
 import Facebook from "../../assets/img/facebok.png"
@@ -20,7 +20,7 @@ const Footer = () => {
                 <div class="footer__left-content-box">
                     <div class="footer__logo-box">
                         <a href="#" class="footer__logo-link">
-                            <img src={Logo} alt="logo" class="footer__logo" width="112" height="112" />
+                            <img src={Logo} alt="logo" class="footer__logo" width="112" height="89" />
                         </a>
                     </div>
                     <div class="footer__messenger-box">

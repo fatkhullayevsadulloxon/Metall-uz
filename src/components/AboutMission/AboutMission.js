@@ -22,7 +22,7 @@ const AboutMission = () => {
                     <li class="mission__list-item">
                         <img src={Kalendar} alt="icon" width="37" height="37" />
                         <p>{Lang[til].AboutPage.AboutMissionHeading2}</p>
-                        <span>{Lang[til].AboutPage.AboutMissionDesc1}</span>
+                        <span>{Lang[til].AboutPage.AboutMissionDesc2}</span>
                     </li>
                     <li class="mission__list-item">
                         <img src={Diagram} alt="icon" width="37" height="29"/>
