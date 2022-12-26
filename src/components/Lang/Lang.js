@@ -12,7 +12,7 @@ export const Lang = {
             MaterialHeading: "Ishlab chiqarish ustaxonasi",
             MaterialDesc: "REALPROFF-KOVKA uyimizga xush kelibsiz! Sizni metall durdonalari yaratilgan ajoyib sayyoramiz bilan tanishishga taklif qilamiz. Bizni tanlagan har bir kishi haqida qayg'uramiz!",
             KatalogDesc: "Tayyor yoki individual loyihalar bo'yicha har qanday murakkablikdagi mahsulotlarni ishlab chiqaramiz",
-            Darvozalar: "Darvozalar",
+            Darvozalar: "Panjaralar",
             Eshiklar: "Eshiklar",
             Reshotkalar: "Reshotkalar",
             Lesnitsalar: "Lesnitsalar",

@@ -1,6 +1,6 @@
 import "./catalog.css"
 import Item1 from "../../assets/img/item-1.jpg"
-import Item2 from "../../assets/img/item2.jpg"
+import Item2 from "../../assets/img/tosiq.jpg"
 import Item3 from "../../assets/img/item3.jpg"
 import Item4 from "../../assets/img/item4.jpg"
 import { Link } from "react-router-dom"
@@ -28,7 +28,7 @@ const Catalog = () => {
                         </Link>
                     </li>
                     <li class="catalog__list-item">
-                        <Link class="catalog__list-item__link" to="catalog/darvoza">
+                        <Link class="catalog__list-item__link" to="/catalog/tosiq">
                             <img class="list-item__img-2" src={Item2} alt="img" width="339" height="618"/>
                             <div class="list-item__box-2">
                                 <h4 class="list-item__title-c">{Lang[til].homePage.Darvozalar}</h4>

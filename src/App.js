@@ -28,8 +28,10 @@ import ServisLinkLazer from "./components/ServisLink/ServisLinkLazer/ServisLinkL
 import ServisLinkMetall2 from "./components/ServisLink/ServisLinkMetall2/ServisLinkMetall2";
 import ServisLinkProkat from "./components/ServisLink/ServisLinkProkat/ServisLinkProkat";
 import ServisLinkProkatLazer from "./components/ServisLink/ServisLinkProkatLazer/ServisLinkProkatLazer";
+import ReactWOW from 'react-wow'
 
 function App() {
+
   return (
     <div className="App">
       <Header/>
