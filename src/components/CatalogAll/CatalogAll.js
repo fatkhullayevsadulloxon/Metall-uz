@@ -9,9 +9,9 @@ import Savdo from "../../assets/img/savdo.jpg"
 import rishotka from "../../assets/img/rishotka.jpg"
 import tosiq from "../../assets/img/tosiq.jpg"
 import Devor from "../../assets/img/devor.jpg"
-import divan from "../../assets/img/divan.png"
+import divan from "../../assets/img/tosiq2.jpg"
 import eskiz from "../../assets/img/eskiz.jpg"
-import Shirmalar from "../../assets/img/Shirmalar.jpg"
+import Shirmalar from "../../assets/img/shirma1.jpg"
 import { Lang } from "../Lang/Lang"
 
 import "./catalogAll.css"
@@ -114,7 +114,7 @@ const CatalogAll = () => {
                         </div>
                     </li>
                 </ul>
-                <button class="section-catalog-images__btn">{Lang[til].homePage.KatalogBtn}</button>
+               
             </div>
         </div>
     )

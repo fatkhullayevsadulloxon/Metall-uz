@@ -8,7 +8,7 @@ import Item2 from "../../../assets/img/zina2.jpg"
 import Item3 from "../../../assets/img/zina3.jpg"
 import Item4 from "../../../assets/img/zina4.jpg"
 import Item5 from "../../../assets/img/zina5.jpg"
-import Item6 from "../../../assets/img/sina6.jpg"
+import Item6 from "../../../assets/img/zina6.jpg"
 import Item7 from "../../../assets/img/zina7.jpg"
 import Item8 from "../../../assets/img/zina8.jpg"
 import Item9 from "../../../assets/img/zina9.jpg"
@@ -93,7 +93,7 @@ const CatalogZina = () => {
                     </li>
 
                 </ul>
-                <button class="section-catalog-images__btn">{Lang[til].homePage.KatalogBtn}</button>
+                
             </div>
         </div>
     )

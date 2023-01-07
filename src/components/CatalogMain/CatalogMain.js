@@ -114,20 +114,16 @@ const CatalogMain = () => {
                                     </NavLink>
                                 </div>
                             </li>
-
+                            <div className="catolg-main-p">
+                                <NavLink to="/catalog/savdo" className={({ isActive }) =>
+                                    isActive
+                                        ? "active-link catolg-main-p"
+                                        : "catolg-main-p"}>{Lang[til].KatalogPage.KatalogLink15}
+                                </NavLink>
+                            </div>
                             <li className="item">
                                 <div className="catolg-main-p">
                                     <NavLink to="/catalog/mukofot" className={({ isActive }) =>
-                                        isActive
-                                            ? "active-link catolg-main-p"
-                                            : "catolg-main-p"}>{Lang[til].KatalogPage.KatalogLink10}
-                                    </NavLink>
-                                </div>
-                            </li>
-
-                            <li className="item">
-                                <div className="catolg-main-p">
-                                    <NavLink to="/catalog/devor" className={({ isActive }) =>
                                         isActive
                                             ? "active-link catolg-main-p"
                                             : "catolg-main-p"}>{Lang[til].KatalogPage.KatalogLink11}
@@ -140,7 +136,7 @@ const CatalogMain = () => {
                         <ul className="list">
                             <li className="item">
                                 <div className="catolg-main-p">
-                                    <NavLink to="/catalog/tosiq" className={({ isActive }) =>
+                                    <NavLink to="/catalog/devor" className={({ isActive }) =>
                                         isActive
                                             ? "active-link catolg-main-p"
                                             : "catolg-main-p"}>{Lang[til].KatalogPage.KatalogLink12}
@@ -150,7 +146,7 @@ const CatalogMain = () => {
 
                             <li className="item">
                                 <div className="catolg-main-p">
-                                    <NavLink to="/catalog/shirma" className={({ isActive }) =>
+                                    <NavLink to="/catalog/tosiq" className={({ isActive }) =>
                                         isActive
                                             ? "active-link catolg-main-p"
                                             : "catolg-main-p"}>{Lang[til].KatalogPage.KatalogLink13}
@@ -160,7 +156,7 @@ const CatalogMain = () => {
 
                             <li className="item">
                                 <div className="catolg-main-p">
-                                    <NavLink to="/catalog/savdo" className={({ isActive }) =>
+                                    <NavLink to="/catalog/shirma" className={({ isActive }) =>
                                         isActive
                                             ? "active-link catolg-main-p"
                                             : "catolg-main-p"}>{Lang[til].KatalogPage.KatalogLink14}

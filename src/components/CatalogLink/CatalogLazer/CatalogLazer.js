@@ -37,7 +37,7 @@ const CatalogLazer = () => {
                     </li>
 
                 </ul>
-                <button class="section-catalog-images__btn">{Lang[til].homePage.KatalogBtn}</button>
+               
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ import { Lang } from "../../Lang/Lang"
 
 import Item1 from "../../../assets/img/tosiq1.jpg"
 import Item2 from "../../../assets/img/tosiq2.jpg"
-import Item3 from "../../../assets/img/tosiq3.jpg"
+import Item3 from "../../../assets/img/tosiq.jpg"
 
 
 import "./catalogeskiz.css"
@@ -46,7 +46,7 @@ const CatalogTosiq = () => {
                     </li>
 
                 </ul>
-                <button class="section-catalog-images__btn">{Lang[til].homePage.KatalogBtn}</button>
+               
             </div>
         </div>
     )
