@@ -22,7 +22,7 @@ const Catalog = () => {
                         <Link class="catalog__list-item__link" to="catalog/darvoza">
                             <img class="list-item__img-1" src={Item1} alt="img" width="575" height="618" />
                             <div class="list-item__box-1">
-                                <h4 class="list-item__title-c">{Lang[til].homePage.Eshiklar}</h4>
+                                <h4 class="list-item__title-c">{Lang[til].homePage.Reshotkalar}</h4>
                                 {/* <p class="list-item__discription-c">Ante mus blandit sapien sociosqu per consequat ad.</p> */}
                             </div>
                         </Link>
@@ -31,7 +31,7 @@ const Catalog = () => {
                         <Link class="catalog__list-item__link" to="/catalog/tosiq">
                             <img class="list-item__img-2" src={Item2} alt="img" width="339" height="618"/>
                             <div class="list-item__box-2">
-                                <h4 class="list-item__title-c">{Lang[til].homePage.Darvozalar}</h4>
+                                <h4 class="list-item__title-c">{Lang[til].homePage.Panjaralar}</h4>
                                 {/* <!-- <p class="list-item__discription-c">Ante mus blandit sapien sociosqu</p> --> */}
                             </div>
                         </Link>
@@ -42,7 +42,7 @@ const Catalog = () => {
                         <Link class="catalog__list-item__link" to="/catalog/reshoka">
                             <img class="list-item__img-3" src={Item3} alt="img" width="454" height="274"/>
                             <div class="list-item__box-3">
-                                <h4 class="list-item__title-c">{Lang[til].homePage.Reshotkalar}</h4>
+                                <h4 class="list-item__title-c">{Lang[til].homePage.Darvozalar}</h4>
                                 {/* <!-- <p class="list-item__discription-c">Ante mus blandit sapien sociosqu per consequat ad.</p> --> */}
                             </div>
                         </Link>
@@ -51,7 +51,7 @@ const Catalog = () => {
                         <Link class="catalog__list-item__link" to="/catalog/zina">
                             <img class="list-item__img-4" src={Item4} alt="img" width="454" height="274" />
                             <div class="list-item__box-4">
-                                <h4 class="list-item__title-c">{Lang[til].homePage.Lesnitsalar}</h4>
+                                <h4 class="list-item__title-c">{Lang[til].homePage.Naves}</h4>
                                 {/* <!-- <p class="list-item__discription-c">Ante mus blandit sapien sociosqu per consequat ad.</p> --> */}
                             </div>
                         </Link>

@@ -66,11 +66,26 @@ const Header = () => {
                 <div className="header__modalka">
                     <div className="modalka__nav__box">
                         <button className="modalka__btn"><img src={Close} alt="icon" width="21" height="21" /></button>
-                        <NavLink to="/" className="nav__link">{Lang[til].homePage.home}</NavLink>
-                        <NavLink to="/about" className="nav__link">{Lang[til].homePage.About}</NavLink>
-                        <NavLink to="/catalog" className="nav__link">{Lang[til].homePage.Catalog}</NavLink>
-                        <NavLink to="/servis" className="nav__link">{Lang[til].homePage.Servis}</NavLink>
-                        <NavLink to="/contact" className="nav__link">{Lang[til].homePage.Kontakt}</NavLink>
+                        <NavLink to="/" className={({ isActive }) =>
+                            isActive
+                                ? "nav-active nav__link"
+                                : "nav__link"}>{Lang[til].homePage.home}</NavLink>
+                        <NavLink to="/about" className={({ isActive }) =>
+                            isActive
+                                ? "nav-active nav__link"
+                                : "nav__link"}>{Lang[til].homePage.About}</NavLink>
+                        <NavLink to="/catalog" className={({ isActive }) =>
+                            isActive
+                                ? "nav-active nav__link"
+                                : "nav__link"}>{Lang[til].homePage.Catalog}</NavLink>
+                        <NavLink to="/servis" className={({ isActive }) =>
+                            isActive
+                                ? "nav-active nav__link"
+                                : "nav__link"}>{Lang[til].homePage.Servis}</NavLink>
+                        <NavLink to="/contact" className={({ isActive }) =>
+                            isActive
+                                ? "nav-active nav__link"
+                                : "nav__link"}>{Lang[til].homePage.Kontakt}</NavLink>
                     </div>
                 </div>
                 <button onClick={HandleToggel} className="nav__hamburger" type="button"><img src={Hamburger} alt="icon" width="21" height="16" /></button>
