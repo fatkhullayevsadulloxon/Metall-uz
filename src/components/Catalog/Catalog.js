@@ -19,7 +19,7 @@ const Catalog = () => {
             <div class="katalog">
                 <ul class="catalog__wrapper-1__list">
                     <li class="catalog__list-item">
-                        <Link class="catalog__list-item__link" to="catalog/darvoza">
+                        <Link class="catalog__list-item__link" to="catalog/zina">
                             <img class="list-item__img-1" src={Item1} alt="img" width="575" height="618" />
                             <div class="list-item__box-1">
                                 <h4 class="list-item__title-c">{Lang[til].homePage.Reshotkalar}</h4>
@@ -39,7 +39,7 @@ const Catalog = () => {
                 </ul>
                 <ul class="catalog__wrapper-2__list">
                     <li class="catalog__list-item c_li-3">
-                        <Link class="catalog__list-item__link" to="/catalog/reshoka">
+                        <Link class="catalog__list-item__link" to="/catalog/darvoza">
                             <img class="list-item__img-3" src={Item3} alt="img" width="454" height="274"/>
                             <div class="list-item__box-3">
                                 <h4 class="list-item__title-c">{Lang[til].homePage.Darvozalar}</h4>
@@ -48,7 +48,7 @@ const Catalog = () => {
                         </Link>
                     </li>
                     <li class="catalog__list-item">
-                        <Link class="catalog__list-item__link" to="/catalog/zina">
+                        <Link class="catalog__list-item__link" to="/catalog/naves">
                             <img class="list-item__img-4" src={Item4} alt="img" width="454" height="274" />
                             <div class="list-item__box-4">
                                 <h4 class="list-item__title-c">{Lang[til].homePage.Naves}</h4>

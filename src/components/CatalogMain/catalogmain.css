@@ -116,7 +116,11 @@
     color: #f90
 }
 
-@media only screen and (max-width: 560px) {list
+.p-23{
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 560px) {
     .catolog-main-div {
         padding-top: 0px;
     }
@@ -127,24 +131,29 @@
     }
 
     .main-catolog {
-        overflow-x: scroll;
+        width: 400px !important;
+        overflow-x: scroll !important;
     }
+    
 
     .item {
         margin-left: -90px;
+        min-width: 235px;
+    }
+
+    .p-3{
+        margin-left: 50px;
         min-width: 225px;
+    }
+
+    .p-23{
+        /* margin-left: 50px; */
+        min-width: 225px;
+        margin-top: 15px;
     }
 
     .catolg-main-p {
         font-size: 20px;
-    }
-    .catolg-main-p2 {
-        font-size: 20px;
-        margin-left: -50px;
-    }
-    .catolg-main-p3 {
-        font-size: 20px;
-        margin-left: 50px;
     }
 
 }

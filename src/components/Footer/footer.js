@@ -20,8 +20,8 @@ const Footer = () => {
                 <div class="footer__left-content-box">
                     <div class="footer__logo-box">
                         <a href="#" class="footer__logo-link">
-                            <img src={Logo} alt="logo" class="footer__logo" width="112" height="89" />
-                        </a>
+                            <img className="logo" src={Logo} alt="logo" class="footer__logo" width="10" height="10" />
+                        </a>    
                     </div>
                     <div class="footer__messenger-box">
                         <p class="footer__text-messenger">{Lang[til].homePage.FooterNetwork}</p>
