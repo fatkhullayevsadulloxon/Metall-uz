@@ -146,7 +146,7 @@ const CatalogMain = () => {
                                 </li>
 
                                 <li className="item">
-                                    <div className="catolg-main-p">
+                                    <div className="catolg-main-p p-24">
                                         <NavLink to="/catalog/tosiq" className={({ isActive }) =>
                                             isActive
                                                 ? "active-link catolg-main-p"
