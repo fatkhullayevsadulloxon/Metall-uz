@@ -54,12 +54,18 @@
 }
 
 .order__input-info {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     height: 140px;
     margin-bottom: 20px;
     width: 100%;
     background: #fff;
-    border: 1px solid rgba(130, 130, 130, .4)
+    border: 1px solid rgba(130, 130, 130, .4);
+}
+
+.order__input-info::placeholder{
+    padding-left: 25px;
+    padding-top: 5px;
+    
 }
 
 .order__btn {
