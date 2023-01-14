@@ -86,7 +86,7 @@
 
     .catalog-table p {
         order: 4;
-        text-align: center
+        /* text-align: center */
     }
 }
 

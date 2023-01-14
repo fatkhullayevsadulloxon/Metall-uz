@@ -52,11 +52,13 @@
     line-height: 22px;
     color: #000;
     border-bottom: #fff solid 3px;
+    transition: all 0.4s;
 }
 
 .nav__link:hover {
     color: #979797;
-    border-bottom: #979797 solid 3px
+    border-bottom: #979797 solid 3px;
+    transition: all 0.4s;
 }
 
 .nav-active {

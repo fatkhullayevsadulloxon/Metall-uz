@@ -143,7 +143,7 @@
 @media only screen and (max-width: 1245px) {
     .footer__logo {
         margin-left: 0px;
-        width: 162px
+        /* width: 162px */
     }
 
     .footer__logo-box {

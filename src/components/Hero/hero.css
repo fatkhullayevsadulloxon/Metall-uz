@@ -44,12 +44,14 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #fff
+    color: #fff;
+    margin-left: 10px;
 }
 
 .carusel__link:hover {
     background: #fff;
-    color: #000
+    color: #000;
+    transition: all 0.4s;
 }
 
 .prev,
@@ -166,6 +168,10 @@
         flex-direction: column;
         margin-bottom: 50px;
         max-width: 280px
+    }
+
+    .carusel__link{
+        margin-top: 20px;
     }
 
     .carusel__btn {
