@@ -34,3 +34,9 @@
 .xizmatlar-box-top hr {
     margin-bottom: 50px
 }
+
+@media only screen and (max-width: 500px) {
+    .xizmatlar-box-top h4{
+        font-size: 32px;
+    }
+}
