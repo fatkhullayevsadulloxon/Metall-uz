@@ -19,16 +19,16 @@ const Info = () => {
             </div>
             <div class="section-info__box-2">
                 <div class="container box__wrapper">
-                    <h5 class="section-info__title">{Lang[til].homePage.infoHeading2}</h5>
-                    <p class="section-info__dicription">
+                    <h5 class="section-info__title1">{Lang[til].homePage.infoHeading2}</h5>
+                    <p class="section-info__dicription1">
                         {Lang[til].homePage.infoDesc2}
                     </p>
                 </div>
             </div>
             <div class="section-info__box-3">
                 <div class="container box__wrapper">
-                    <h5 class="section-info__title">{Lang[til].homePage.infoHeading3}</h5>
-                    <p class="section-info__dicription">
+                    <h5 class="section-info__title2">{Lang[til].homePage.infoHeading3}</h5>
+                    <p class="section-info__dicription2">
                         {Lang[til].homePage.infoDesc3}
                     </p>
                 </div>

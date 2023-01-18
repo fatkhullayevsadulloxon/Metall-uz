@@ -19,7 +19,7 @@
     background-image: url("../../assets/img/bg2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #fff
+    border: 1px solid #fff;
 }
 
 .section-info__box-2:hover {
@@ -56,8 +56,29 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 28px;
-    color: #fff
+    color: #fff;
 }
+.section-info__title1 {
+    padding-left: 40px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    color: #fff;
+    margin-left: -130px;
+}
+.section-info__title2 {
+    padding-left: 40px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    color: #fff;
+    margin-left: -240px;
+}
+
 
 .section-info__dicription {
     padding-left: 40px;
@@ -68,6 +89,30 @@
     font-size: 24px;
     line-height: 28px;
     color: #e4e4e4
+}
+
+.section-info__dicription1 {
+    margin-left: 20px;
+    max-width: 633px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #e4e4e4;
+    margin-top: -20px;
+}
+
+.section-info__dicription2 {
+    margin-left: 20px;
+    max-width: 633px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #e4e4e4;
+    margin-top: -20px;
 }
 
 @media only screen and (max-width: 769px) {
@@ -83,7 +128,6 @@
         margin: 0;
         justify-content: center;
         padding: 20px;
-        /* text-align: center */
     }
 
     .section-info__dicription {

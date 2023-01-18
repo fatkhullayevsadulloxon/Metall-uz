@@ -1,13 +1,13 @@
 .header {
     display: flex;
     padding-bottom: 21px;
-    align-items: center
+    align-items: center;
 }
 
 .header__logo {
     text-decoration: none;
     margin-left: 20px;
-    margin-right: 50px
+    margin-right: 50px;
 }
 
 .navbar {
@@ -117,7 +117,8 @@
     .header__logo {
         text-decoration: none;
         margin-left: 20px;
-        margin-right: 30px
+        margin-right: 30px;
+        margin-top: 10px;
     }
 
     .nav__link {
