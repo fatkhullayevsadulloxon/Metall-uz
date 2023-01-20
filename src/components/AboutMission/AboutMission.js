@@ -11,7 +11,7 @@ const AboutMission = () => {
     const{lang: til} = useContext(LangContext)
     
     return (
-        <div>
+        <div className="container">
             <div class="mission-section container">
                 <ul class="mission__list">
                     <li class="mission__list-item">

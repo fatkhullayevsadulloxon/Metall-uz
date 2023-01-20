@@ -15,6 +15,7 @@ const Catalog = () => {
     return (
         <div class="katalog-section container">
             <h3 class="katalog__title">{Lang[til].homePage.Catalog}</h3>
+            <div class="xizmatlar__line"></div>
             <p class="katalog__discription">{Lang[til].homePage.KatalogDesc}</p>
             <div class="katalog">
                 <ul class="catalog__wrapper-1__list">

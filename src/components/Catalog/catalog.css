@@ -1,14 +1,12 @@
 .katalog__title {
-    max-width: 170px;
-    margin: 0 auto;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
     font-family: "Proxima Nova";
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 48px;
-    color: #111010;
-    border-bottom: 4px solid #c4c4c4
+    color: #111010
 }
 
 .katalog__discription {
@@ -249,6 +247,10 @@
     .katalog__info {
         font-size: 24px;
         line-height: 28px
+    }
+
+    .katalog__discription{
+        font-size: 16px;
     }
 }
 

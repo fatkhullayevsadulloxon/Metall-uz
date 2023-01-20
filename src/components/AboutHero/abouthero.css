@@ -13,7 +13,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 62px;
-    /* line-height: 76px; */
     text-transform: uppercase;
     color: #fff
 }
@@ -41,5 +40,6 @@
     .o-nas__intro__text-wrapper p{
         font-size: 20px;
         margin-left: -50px;
+        max-width: 500px !important;
     }
 }

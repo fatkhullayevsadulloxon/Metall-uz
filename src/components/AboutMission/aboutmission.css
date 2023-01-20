@@ -95,7 +95,9 @@
 
     .mission-section__title {
         padding-left: 20px;
-        padding-right: 20px
+        padding-right: 20px;
+        /* margin-left: -20px; */
+        font-size: 32px;
     }
 
     .mission__line-wrapper {
@@ -105,5 +107,16 @@
     .mission__info-wrapper {
         padding-left: 20px;
         padding-right: 20px
+    }
+
+    .mission-section__subtitle{
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .mission-section__info{
+        font-size: 20px;
+        margin-top: -10px;
+        max-width: 335px;
     }
 }

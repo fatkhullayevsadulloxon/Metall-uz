@@ -68,6 +68,12 @@
         align-items: center
     }
 
+    .catalog-table__discription-x{
+        font-size: 18px;
+        max-width: 335px;
+        margin-left: 10px;
+    }
+
     .catalog-table__btn-wrapper {
         margin-bottom: 30px
     }

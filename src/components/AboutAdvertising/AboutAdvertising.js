@@ -9,7 +9,7 @@ const AboutAdvertising = () => {
    
     return (
         <div class="section_advertising">
-            <h6 class="container">{Lang[til].AboutPage.AboutAdvertisingHeading2}</h6>
+            <h6 class="">{Lang[til].AboutPage.AboutAdvertisingHeading2}</h6>
             <p class="container">{Lang[til].AboutPage.AboutAdvertisingDesc3}</p>
         </div>
     )

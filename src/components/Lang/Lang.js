@@ -53,7 +53,7 @@ export const Lang = {
             AboutAdvertisingHeading1: "Bizning vazifamiz",
             AboutAdvertisingDesc: "Buyurtma berish uchun metal va metaldan yasalgan mahsulotlar",
             AboutAdvertisingDesc2: "Kompaniyamiz faoliyatining asosiy yo'nalishi buyurtma asosida zarb qilingan mahsulotlar ishlab chiqarishdir. Bizning jamoamiz tajribali mutaxassislardan iborat: rassomlar, dizaynerlar, texnologlar, konstruktorlar, temirchilar, o'lchovchilar, montajchilar.Biz siz uchun 'noldan' noyob dizaynni taklif qilamiz yoki sizga yoqqan namunalar asosida istalgan mahsulotni ishlab chiqamiz.Agar siz katalogda kerakli mahsulotni topa olmagan bo'lsangiz, biz uni siz uchun maxsus ishlab chiqamiz!",
-            AboutAdvertisingHeading2: "Biz har qanday ta'mga va har xil daromadli odamlar uchun soxta mahsulotlarni yaratamiz.",
+            AboutAdvertisingHeading2: "Biz har qanday ta'bga va har xil daromadli odamlar uchun mahsulotlarni yaratamiz.",
             AboutAdvertisingDesc3: "Badiiy zarb ustasi tomonidan yaratilgan sifatli mahsulotni har kim ham sotib olishga qodir emas. Shunday bo'lsa-da, har qanday qiziqarli vazifaga yechim topish bizning e'tiqodimizdir.",
             AboutServisHeading: "Xizmatlar:",
             AboutServisLi1: "Metal zarb buyumlari (kichik interyer buyumlaridan haykaltaroshlik ansambillarigacha)",

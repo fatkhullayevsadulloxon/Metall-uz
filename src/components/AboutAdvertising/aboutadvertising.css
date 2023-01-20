@@ -16,7 +16,6 @@
     font-weight: 600;
     font-size: 28px;
     line-height: 34px;
-    /* text-align: center; */
     color: #fff
 }
 
@@ -35,5 +34,18 @@
 @media only screen and (max-width: 1000px) {
     .section_advertising {
         margin-bottom: 60px
+    }
+
+    .section_advertising h6{
+        font-size: 28px;
+        max-width: 341px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .section_advertising p{
+        font-size: 20px;
+        max-width: 341px;
+        text-align: center;
     }
 }
